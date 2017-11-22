@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://characters/flying-camera/flying_camera.gd" type="Script" id=1]
+
+[node name="FlyingCamera" type="Camera"]
+
+projection = 0
+fov = 65.0
+near = 0.1
+far = 100.0
+keep_aspect = 1
+current = false
+cull_mask = 1048575
+environment = null
+h_offset = 0.0
+v_offset = 0.0
+doppler/tracking = 0
+script = ExtResource( 1 )
+mouse_sensitivity = 0.0001
+camera_speed = 0.1
+
+
